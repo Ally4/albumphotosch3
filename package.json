@@ -4,7 +4,8 @@
   "description": "node of the second challenge",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev"
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -20,18 +21,12 @@
   },
   "homepage": "https://github.com/Ally4/albumphotosch3#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "@babel/register": "^7.14.5",
-    "@babel/runtime": "^7.14.8",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
     "eslint": "^7.31.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
-    "@babel/node": "^7.14.7",
     "nodemon": "^2.0.12"
   }
 }
